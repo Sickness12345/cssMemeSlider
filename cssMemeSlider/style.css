@@ -1,0 +1,34 @@
+.slider {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slider_pictures,
+.slider_captions {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider_captions {
+  width: 70%;
+}
+
+.slider_pictures img,
+.slider_captions div {
+  width: 100%;
+  flex-shrink: 0;
+  margin-top: 5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 130%;
+}
+
+.slider_radios {
+  width: 20%;
+  margin-top: 5%;
+}
