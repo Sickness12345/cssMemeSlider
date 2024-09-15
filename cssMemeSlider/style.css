@@ -63,6 +63,13 @@ body {
 .label {
   cursor: pointer;
   display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.label div {
+  cursor: pointer;
+  display: block;
   width: 0.8rem;
   height: 0.8rem;
   background-color: #dce1de;
@@ -70,6 +77,10 @@ body {
   border: 0.15rem solid #216869;
   flex-shrink: 0;
   transition: background-color 0.3s linear;
+}
+
+.label:hover div {
+  background-color: #9cc5a1;
 }
 
 #r1:checked ~ .slider_in #l1,
