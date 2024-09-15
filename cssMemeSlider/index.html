@@ -3,29 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <main>
       <div class="slider">
-        <div class="slider_pictures">
-          <img src="pictures/1.png" alt="1" />
-          <img src="pictures/2.png" alt="2" />
-          <img src="pictures/3.png" alt="3" />
-          <img src="pictures/4.png" alt="4" />
-        </div>
-        <div class="slider_captions">
-          <div>Оптимизированный корпус летального аппарата</div>
-          <div>Оптимизированный кронштейн с решётчатой структурой</div>
-          <div>Пример решётчатой структуры типа гироид</div>
-          <div>Распределение потока жидкости в проточной части канала</div>
-        </div>
-        <div class="slider_radios">
-          <input type="radio" name="radio" id="r1" checked/>
-          <input type="radio" name="radio" id="r2" />
-          <input type="radio" name="radio" id="r3" />
-          <input type="radio" name="radio" id="r4" />
+        <input type="radio" name="radio" hidden id="r1" checked />
+        <input type="radio" name="radio" hidden id="r2" />
+        <input type="radio" name="radio" hidden id="r3" />
+        <input type="radio" name="radio" hidden id="r4" />
+        <div class="slider_in">
+          <div class="slider_pictures">
+            <img src="pictures/1.jpeg" alt="1" />
+            <img src="pictures/2.jfif" alt="2" />
+            <img src="pictures/3.webp" alt="3" />
+            <img src="pictures/4.jpg" alt="4" />
+          </div>
+          <div class="slider_captions">
+            <div>Ой шутка-то какая</div>
+            <div>Как узнать возраст у девушки</div>
+            <div>Гости дорогие</div>
+            <div>Проблемы?</div>
+          </div>
+          <div class="slider_radios">
+            <label for="r1" class="label" id="l1"></label>
+            <label for="r2" class="label" id="l2"></label>
+            <label for="r3" class="label" id="l3"></label>
+            <label for="r4" class="label" id="l4"></label>
+          </div>
         </div>
       </div>
     </main>
